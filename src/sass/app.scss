@@ -1,4 +1,55 @@
-.hoge {
-  width: 100px;
-  height: 100px;
+$maxWidth: 1000px;
+$brandColor: #cd6799;
+
+.inner {
+  width: 100%;
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  h1 {
+    text-align: left;
+  }
+
+  &__logo {
+    width: 80px;
+  }
+
+  &__list {
+    display: flex;
+    & > li {
+      margin-left: 30px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #666;
+    font: {
+      size: 16px;
+      weight: bold;
+    }
+
+    &:hover {
+      color: $brandColor;
+    }
+  }
 }

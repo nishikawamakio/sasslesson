@@ -1,3 +1,35 @@
-.hoge {
-  width: 100px;
-  height: 100px; }
+.inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0; }
+  .header h1 {
+    text-align: left; }
+  .header__logo {
+    width: 80px; }
+  .header__list {
+    display: flex; }
+    .header__list > li {
+      margin-left: 30px; }
+      .header__list > li:first-child {
+        margin-left: 0; }
+  .header__link {
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold; }
+    .header__link:hover {
+      color: #cd6799; }
