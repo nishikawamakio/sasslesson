@@ -18,7 +18,7 @@ $brandColor: #cd6799;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1000px;
+  width: $maxWidth;
   margin: 0 auto;
   padding: 10px 0;
 
@@ -105,24 +105,19 @@ $brandColor: #cd6799;
         }
       }
     }
+
     &__btn {
-      &.is-facebook {
-        @include btn(#4668b3);
-      }
-      &.is-google {
-        @include btn(#de5745);
-      }
-      &.is-twitter {
-        @include btn(#2fbbed);
-      }
-      &.is-pinterest {
-        @include btn(#d94348);
-      }
-      &.is-behance {
-        @include btn(#3079ff);
-      }
-      &.is-dribbble {
-        @include btn(#eb6397);
+      $btns__color: #4668b3, #de5745, #2fbbed, #d94348, #3079ff, #eb6397;
+
+      $snss__btn: 'facebook', 'google', 'twitter', 'pinterest', 'behance', 'dribbble';
+
+      @each $name in $snss__btn {
+        $index_key: index($snss__btn, $name);
+        @debug $index_key;
+        &.is-#{$name} {
+          @debug nth($btns__color, $index_key);
+          @include btn(nth($btns__color, $index_key));
+        }
       }
     }
   }

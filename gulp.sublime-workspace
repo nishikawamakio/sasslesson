@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ch",
+				"change\t.change()"
+			],
+			[
+				"op",
+				"option\t<option>"
+			],
+			[
+				"select",
+				"selectボックスをクリックして言語を選び、その言語と関係のあるリストだけが表示されるプログラムです。"
+			],
+			[
+				"slide",
+				"slideDown\t.slideDown()"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"c",
+				"click\t.click()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pro",
+				"proverbArray"
+			],
+			[
+				"foc",
+				"focusin\t.focusin()"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"span",
+				"span\tTag"
+			],
+			[
+				"he",
+				"line-height"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"p",
+				"p\t<p>"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"bode",
+				"border-color"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"boder-raius",
+				"border-radius"
+			],
+			[
+				"table",
+				"table"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"td",
+				"td\t<td>"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"br",
+				"break-all"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 344.0,
+		"last_filter": "package control",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"]",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)]"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/tenth/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/third/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/eighth/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/bolt/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/bolt/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/fifth/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q5/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q5/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q9/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q9/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q11/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel1/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/bolt/js/script.js",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q7/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/fourth/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/second/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/sass/src/layout/_btn.sass",
+		"/C/Users/Akko/Desktop/Gizumo/sass/src/app.scss",
+		"/C/Users/Akko/Desktop/Gizumo/sass/gulpfile.js",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/first/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/jQuery/work/first/answer/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/js その２/js.js",
+		"/C/Users/Akko/Desktop/Gizumo/js その２/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/js/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/js/jstest.html",
+		"/C/Users/Akko/Desktop/Gizumo/bolt/img/iphone.png",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q12/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q12/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q11/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q11/imgs/thumb.jpg",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q10/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q10/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel3/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q8/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q8/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q7/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q6/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q6/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel3/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q2/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q2/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q3/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q4/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q4/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q3/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q1/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel1/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/layout-parts/layout-parts/q1/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel3/css/reset.css",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzle2/css/style.css",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzle2/index.html",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzle2/css/reset.css",
+		"/C/Users/Akko/Desktop/Gizumo/div_puzzlel1/css/reset.css",
+		"/C/Users/Akko/Desktop/Gizumo/test"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"We_can_do__sid",
+			"Work__list",
+			"We_can_do__sid",
+			"clearfix",
+			"remove",
+			"q5__vertical__table__txt",
+			"q5__vertical__table__inner",
+			"is-active",
+			"-webkit-appearance",
+			"textarea_box",
+			"check_box",
+			"checked",
+			"keyword",
+			"liststr",
+			"item",
+			"js-search-word",
+			"jsonp",
+			"json",
+			"text",
+			"data",
+			"data-category-type",
+			"menu__list__title",
+			"click",
+			"check",
+			"removeClass",
+			"is-hidden",
+			"removeClass",
+			"is-hidden",
+			"modal",
+			"modal-show",
+			".Work__list",
+			"margin",
+			";\n",
+			"Theme__h1",
+			"header__contact",
+			"Theme__h1",
+			".Work__Email_txt",
+			"We_can_do",
+			"we_can_do",
+			"We_can_do__txt",
+			"We_can_do__txt]",
+			"We_can_do__txt",
+			"label",
+			"myfooter__txt",
+			"myfooter",
+			"OUR_SKILS__list",
+			"display:flex;",
+			"Work__list1",
+			"We_can_do_h1",
+			"Theme",
+			"content1__p",
+			"content1__txt",
+			"This is my portfolio site.",
+			"description",
+			"This is my portfolio site.",
+			"transition__grad",
+			"q10_init\"",
+			"name",
+			"q10_inputs",
+			"q10_inputs]",
+			"q10_inputs",
+			"q10_radio_txt",
+			"q10_radio_text",
+			"radio_box",
+			"padding",
+			"margin",
+			"margin\n",
+			"margin",
+			"check_text",
+			"init",
+			"ch",
+			"reado_box",
+			";\n",
+			"class",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gulp.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
