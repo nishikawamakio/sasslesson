@@ -1,5 +1,4 @@
-$maxWidth: 1000px;
-$brandColor: #cd6799;
+@import './variable';
 
 .inner {
   width: 100%;
@@ -56,7 +55,7 @@ $brandColor: #cd6799;
 
 .parent {
   padding: 70px 0;
-  background-color: #fff;
+  background-color: $white;
 
   &__ttl {
     color: #333;
@@ -79,7 +78,7 @@ $brandColor: #cd6799;
 @mixin btn($color) {
   display: block;
   padding: 20px 30px;
-  color: #fff;
+  color: $white;
   border-radius: 6px;
   cursor: pointer;
   background-color: $color;
@@ -107,14 +106,6 @@ $brandColor: #cd6799;
     }
 
     &__btn {
-      $map: (
-        twitter: #2fbbed,
-        facebook: #4668b3,
-        google: #de5745,
-        pinterest: #d94348,
-        behance:#3079ff,
-        dribbble:#eb6397,
-      );
       @each $name, $color in $map {
         &.is-#{$name} {
           @debug map-get($map, $name);
