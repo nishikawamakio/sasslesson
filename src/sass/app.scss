@@ -53,3 +53,77 @@ $brandColor: #cd6799;
     }
   }
 }
+
+.parent {
+  padding: 70px 0;
+  background-color: #fff;
+
+  &__ttl {
+    color: #333;
+    text-align: center;
+    font:{
+      size: 20px;
+      weight: bold;
+    }
+  }
+}
+
+.children {
+  @extend .parent;
+  background-color: #f5f5f5;
+  &__ttl {
+    @extend .parent__ttl;
+  }
+}
+
+@mixin btn($color) {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: $color;
+  text: {
+    decoration: none;
+    align: center;
+  }
+}
+
+.footer {
+  padding: 70px 0;
+
+  &__sns {
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      & > li {
+        width: 32%;
+        &:nth-child(n+4) {
+          margin-top: 20px;
+        }
+      }
+    }
+    &__btn {
+      &.is-facebook {
+        @include btn(#4668b3);
+      }
+      &.is-google {
+        @include btn(#de5745);
+      }
+      &.is-twitter {
+        @include btn(#2fbbed);
+      }
+      &.is-pinterest {
+        @include btn(#d94348);
+      }
+      &.is-behance {
+        @include btn(#3079ff);
+      }
+      &.is-dribbble {
+        @include btn(#eb6397);
+      }
+    }
+  }
+}
