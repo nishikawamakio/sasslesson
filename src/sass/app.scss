@@ -107,16 +107,18 @@ $brandColor: #cd6799;
     }
 
     &__btn {
-      $btns__color: #4668b3, #de5745, #2fbbed, #d94348, #3079ff, #eb6397;
-
-      $snss__btn: 'facebook', 'google', 'twitter', 'pinterest', 'behance', 'dribbble';
-
-      @each $name in $snss__btn {
-        $index_key: index($snss__btn, $name);
-        @debug $index_key;
+      $map: (
+        twitter: #2fbbed,
+        facebook: #4668b3,
+        google: #de5745,
+        pinterest: #d94348,
+        behance:#3079ff,
+        dribbble:#eb6397,
+      );
+      @each $name, $color in $map {
         &.is-#{$name} {
-          @debug nth($btns__color, $index_key);
-          @include btn(nth($btns__color, $index_key));
+          @debug map-get($map, $name);
+          @include btn(map-get($map, $name));
         }
       }
     }
